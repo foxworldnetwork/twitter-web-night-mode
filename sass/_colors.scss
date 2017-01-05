@@ -1,28 +1,39 @@
-$dark-bg: #1B2836;
-$light-bg: lighten(#1B2836, 10%);
+$dark-bg: #111;
+$light-bg: lighten(#222, 0%);
+$body-bg: #000;
 $white: #fff;
-$text-grey: #8899a6;
-$border-color-light: #324554;
+$text-grey: #999;
+$darker-grey: #666;
+$border-color-light: #444;
 
-$nav-bar-bg: #243447;
+$input-bg: #333;
+$input-fg: #eee;
+
+$nav-bar-bg: #222;
 $nav-bar-text-color: $white;
-$nav-bar-icon-color: #1DA1F2;
-$tweet-bg: #1B2836;
+//$nav-bar-icon-color: #1DA1F2;
+$nav-bar-icon-color: #7ba5ca;
+$tweet-bg: #222;
 $tweet-text-color: $white;
 $tweet-name-color: $white;
-$tweet-separator-color: #324554;
+$tweet-separator-color: #666;
 $twitter-summary-card-title-color: $white;
 $twitter-summary-card-text-color: $white;
 $quote-tweet-fullname-color: $white;
 $quote-tweet-text-color: $white;
-$twitter-card-container-border-color: #324554;
-$dashboard-profile-card-content-bg: #1b2836;
+$twitter-card-container-border-color: #222;
+$dashboard-profile-card-content-bg: #111;
 $dashboard-profile-card-name-color: $white;
-$dashboard-profile-card-avatar-border-color: #1b2836;
+$dashboard-profile-card-avatar-border-color: #111;
 $profile-card-stats-color: $white;
-$new-tweets-bar-bg: #243447;
+$new-tweets-bar-bg: #222;
 $new-tweets-bar-text-color: $white;
-$flex-module-bg: #1b2836;
-$trends-bg: #1b2836;
-$missing-tweets-bar-bg: #243447;
-$link-color: #459BE6;
+$flex-module-bg: #111;
+$trends-bg: #111;
+$missing-tweets-bar-bg: #111;
+
+//$link-color: #459BE6;
+$link-color: #7ba5ca;
+
+$button-bg-1: #333;
+$button-bg-2: #222;

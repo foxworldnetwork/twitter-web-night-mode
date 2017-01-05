@@ -1,5 +1,5 @@
 body.logged-in {
-	background-color: $light-bg!important;
+	background-color: $body-bg!important;
 }
 
 * {
@@ -65,6 +65,11 @@ body.logged-in {
 		background-color: $flex-module-bg;
 	}
 
+	.trends-inner .flex-module-header,
+	.trends-inner .flex-module-inner {
+		background-color: $trends-bg;
+	}
+
 	.Trends {
 		background-color: $trends-bg;
 	}
@@ -105,6 +110,11 @@ body.logged-in {
 	ol.conversation-module.stream-items.js-navigable-stream.collapsed-ancestors,
 	.stream-item.has-recap.stream-item.separated-module {
 		background-color: $dark-bg;
+	}
+
+	.modal-tweet-form-container {
+		background-color: $dark-bg !important;
+		background: none !important;
 	}
 
 	.modal-header {
@@ -151,6 +161,10 @@ body.logged-in {
 	.QuoteTweet-text .pretty-link:active b, .QuoteTweet-text .pretty-link:active s,
 	.fullname {
 		color: $link-color;
+	}
+
+	.QuoteTweet-container {
+
 	}
 
 	.TweetBox-photoIntent .photo-selector .btn {
@@ -218,6 +232,7 @@ body.logged-in {
 	.DMActivity-body {
 		background-color: $dark-bg;
 	}
+    .DirectMessage-tweet .QuoteTweet,
 	.DMNotice,
 	.DMInboxItem:hover,
 	.DMInboxItem.is-unread,
@@ -458,6 +473,7 @@ body.logged-out {
 	color: $nav-bar-text-color!important;
 }
 
+.MomentMakerHomeModule,
 .MomentsGuidePage-content, .MomentGuideNavigation, .MomentGuideVTwoCapsuleGroup .MomentGuideVTwoCapsuleSummary--portrait, .MomentGuideVTwoCapsuleSummary--hero, .MomentCapsuleVTwoItemTweet--withText,
 .MomentGuideVTwoCapsuleSummary.MomentGuideVTwoCapsuleSummary--small,
 .ListCreationModule {
@@ -478,3 +494,61 @@ body.logged-out {
 	color: $text-grey!important;	
 }
 
+// Buttons
+.btn {
+	background-color: $button-bg-1 !important;
+	background-image: linear-gradient($button-bg-2, $button-bg-1) !important;
+	color: $white !important;
+}
+
+a, button.btn-link, .pretty-link b, .pretty-link s {
+	color: $link-color !important; /* I do not give a FUCK */
+}
+a>span._timestamp {
+	color: #8899a6 !important; /* Maybe I give a little fuck */
+}
+
+.home-tweet-box, .LiveVideo-tweetBox, .RetweetDialog-commentBox, .WebToast-box--altColor {
+	background: $dark-bg !important;
+}
+
+.media-not-displayed {
+	background: $light-bg !important;
+	color: $white !important;
+}
+
+#global-tweet-dialog .modal-tweet-form-container {
+	background-color: $body-bg !important;
+	color: $white !important;
+}
+
+input, textarea, div[contenteditable], .t1-select {
+	background-color: $input-bg !important;
+	color: $input-fg !important;
+}
+
+.DMDivider {
+	background-color: $dark-bg !important;
+	color: $darker-grey !important;
+}
+
+.ProfileCard-avatarLink {
+	background-color: $darker-grey !important;
+}
+
+.TweetImpressionsModule {
+	background-color: $dark-bg !important;
+	color: $white !important;
+}
+.TweetImpressionsModule-text {
+	color: $white !important;
+}
+
+.stats a strong {
+	color: $white !important;
+}
+
+.doc .u-textUserColor, .doc .u-textUserColorHover:active, .doc .u-textUserColorHover:hover, 
+.doc .u-textUserColorHover:hover .doc .ProfileTweet-actionCount, .doc .u-textUserColorHover:focus {
+	color: $white !important;
+}
