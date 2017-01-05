@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Twitter Web - Night Mode",
-  "version": "0.0.6",
-  "description": "Android/iOS like night mode for twitter web app",
-  "homepage_url": "https://github.com/tsriram/twitter-web-night-mode",
+  "name": "Twitter Web - Dark Mode (Black)",
+  "version": "0.0.1",
+  "description": "Dark mode with black background for twitter web app",
+  "homepage_url": "https://github.com/AOEUPL-PHE/twitter-web-night-mode",
 
   "background": {
     "scripts": [
@@ -43,8 +43,8 @@
 
   "author": [
     {
-      "name": "Sriram Thiagarajan",
-      "github": "tsriram"
+      "name": "AOEUPL PHE",
+      "github": "AOEUPL-PHE"
     }
   ]
 }
