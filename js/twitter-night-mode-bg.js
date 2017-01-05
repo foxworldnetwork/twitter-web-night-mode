@@ -30,13 +30,17 @@ function setNightMode(tab) {
 c.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 	if(tab.url && regex.test(tab.url)) {
     c.pageAction.show(tab.id);
-    c.storage.local.get({'nightmode': true}, function(items) {
-      if(items.nightmode) {
-        setNightMode(tab);
-      }else {
-        unsetNightMode(tab);
-      }
-    });
+
+    if (changeInfo.status == "complete") {
+      c.storage.local.get({'nightmode': true}, function(items) {
+        if(items.nightmode) {
+          setNightMode(tab);
+        }else {
+          unsetNightMode(tab);
+        }
+      });
+    }
+
 	}else {
     c.pageAction.setTitle({tabId: tab.id, title: 'Extension will be enabled when you open twitter.com'});
   }
